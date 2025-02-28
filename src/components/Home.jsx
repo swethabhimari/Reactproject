@@ -5,7 +5,7 @@ import {
   FaHome, FaComments, FaPhone, FaVideo, FaUsers, 
   FaCalendarAlt, FaSignOutAlt, FaPlus, FaRegCalendarCheck, FaDesktop 
 } from "react-icons/fa";
-import "../styles.css";
+import "./App.css";
 
 const Home = () => {
   const navigate = useNavigate();
