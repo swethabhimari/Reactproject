@@ -1,0 +1,26 @@
+{
+  "name": "my-vite-app",
+  "version": "1.0.0",
+  "description": "A React app with Vite",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "firebase": "^9.23.0",
+    "framer-motion": "^12.4.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.0.0"
+  },
+  "author": "Your Name",
+  "license": "ISC"
+}

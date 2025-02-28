@@ -1,0 +1,318 @@
+body {
+  font-family: Arial, sans-serif;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  margin: 0;
+}
+
+.login-container, .home-container {
+  background: white;
+  padding: 20px;
+  color:red;
+  border-radius: 10px;
+  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+  text-align: center;
+}
+.h1con{
+color:#000;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.login-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.signup-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.google-btn {
+  background-color: #db4437;
+  color: white;
+}
+
+.logout-btn {
+  background-color: #ff3b30;
+  color: white;
+}
+
+/* ✅ Landing Page Styling */
+.landing-container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url('/images/background-image.png'); /* ✅ Background image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* ✅ Full dark overlay */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* Darker overlay for full coverage */
+  z-index: 0;
+}
+
+/* ✅ Content stays above the dark overlay */
+.content {
+  position: relative;
+  z-index: 1;
+  max-width: 600px;
+  height: 280px;
+  padding: 20px;
+  background: rgba(29, 24, 24, 0.6); /* Dark background behind text */
+  border-radius: 10px;
+}
+
+/* ✅ Logo */
+.logo {
+  width: 100px;
+  margin-bottom: 15px;
+}
+
+/* ✅ Heading */
+h1 {
+  font-size: 2.5rem;
+  color: white; /* ✅ White text */
+  margin-bottom: 10px;
+  background-color: transparent;
+}
+
+/* ✅ Description */
+p {
+  font-size: 1.2rem;
+  color: white; /* ✅ White text */
+  margin-bottom: 20px;
+}
+
+/* ✅ Get Started Button */
+.get-started-btn {
+  background-color: #ff7f50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 30%;
+}
+
+.get-started-btn:hover {
+  background-color: #ff5722;
+  transform: scale(1.2,1.2);
+}
+
+/* ✅ Right Side Images - Properly Positioned */
+.right-images {
+  position: absolute;
+  right: 0%;
+  top: 1%;
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Space between the images */
+}
+
+/* ✅ First Image (Background Layer) */
+.right-image-1 {
+  width: 780px; /* Increased size */
+  height: 430px;
+  position: relative;
+  z-index: 0;
+  opacity: 1; /* Full visibility */
+
+}
+
+/* ✅ Second Image (Beside First Image) */
+.right-image-2 {
+  width: 200px; /* Increased size */
+  height: 150px;
+  position: absolute;
+  
+  z-index: 1; /* Brings the second image above the first */
+  right: -28%; /* Moves it beside the first image */
+  top: 88%; /* Aligns vertically */
+  transform: translateY(-80%) rotate(0deg); /* Slight rotation for a dynamic look */
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.top-nav {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-icon {
+  font-size: 40px;
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+.nav-icon.active {
+  color: blue;
+}
+
+.search-bar {
+  flex-grow: 1;
+  padding: 5px;
+  margin-left: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.action-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+}
+
+.new-meeting { background-color: orange; }
+.join { background-color: blue; }
+.schedule { background-color: navy; }
+.share-screen { background-color: green; }
+
+.icon {
+  margin-right: 10px;
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.calendar-image img {
+  width: 250px;
+  border-radius: 10px;
+}
+
+.time-display {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.date-display {
+  font-size: 18px;
+  color: gray;
+}
+
+.add-calendar {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: blue;
+}
+.calendar-image img {
+  content: url("/images/calendar.jpg");
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content h2 {
+  margin-bottom: 10px;
+}
+
+.modal-content button {
+  margin: 10px;
+  width: 50%;
+  padding: 10px 15px;
+  border: none;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.modal-content button:hover {
+  background: #0056b3;
+}
+
